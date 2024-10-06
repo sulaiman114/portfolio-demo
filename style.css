@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#intro{
+    height: 40%;
+    width: 100%;
+    background-color: bisque;
+    padding: 25px 20px;
+}
+#intro h1{
+    font-size: 125px;
+    line-height: 100px;
+    letter-spacing: -3px;
+   
+}
+#place{
+    padding: 20px;
+    display: flex;
+    font-size: 19px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#start{
+    display: flex;
+    height: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+#start h3{
+   
+  color: white;
+  background-color: black;
+  padding: 3px 5px;
+  border: solid 1.5px rgb(79, 119, 188);
+  margin: 0 2px;
+  font-weight: 300;
+  border-radius: 50px;
+  cursor: pointer;
+  position: fixed;
+  
+}
+#image{
+    height: 84%;
+    width: 100%;
+    padding: 10px;
+    
+
+}
+#about{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 20px;
+    background-color: bisque;
+}
+#about h2{
+    width: 60%;
+    font-size: 80px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 88px;
+    
+}
+#about2{
+   width: 35%;
+   height: 100%;
+   padding: 0 50px;
+   border-left: solid 2px black;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+#about2 h3{
+    font-size: 25px;
+    font-weight: 500;
+   
+}
+#icon{
+    font-size: 40px;
+
+}
+#work{
+    height: 50%;
+    width: 100%;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#work1{
+    font-size: 20px;
+    width: 30%; 
+    height: 100%;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#work h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#work i{
+    font-size: 20px;
+}
+#work2{
+    height: 100%;
+    width: 70%;
+    border-left: 2px solid black;
+    padding: 10px 8px;
+   
+}
+.workpart1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.workpart1:nth-child(1){
+    border-bottom: 2px solid black;
+    padding: 50px;
+    
+}
+.workpart1:nth-child(2){
+
+    padding:50px;
+}
+.workpart1 .elem{
+    width: 50%;
+    height: 100%;
+    padding: 0 50px;
+}
+.workpart1 .elem{
+    border-right: 2px solid black;
+
+}
+#work2 h3{
+    font-size: 30px;
+    
+}
